@@ -2,9 +2,6 @@
   "author": {
     "name": "jinceon@qq.com"
   },
-  "bugs": {
-    "url": "https://github.com/EasingLab/alipayment/issues"
-  },
   "bundleDependencies": false,
   "dependencies": {
     "dateformat": "^3.0.3",
@@ -40,5 +37,5 @@
     "test-cov": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
     "test-travis": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
