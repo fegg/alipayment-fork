@@ -1,0 +1,44 @@
+{
+  "author": {
+    "name": "jinceon@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/EasingLab/alipayment/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "moment": "^2.22.2",
+    "request": "^2.87.0",
+    "underscore": "^1.9.1",
+    "ursa": "^0.9.4"
+  },
+  "deprecated": false,
+  "description": "Alipay sdk for nodejs, forked from https://github.com/EasingLab/alipayment",
+  "devDependencies": {
+    "istanbul": "0",
+    "koa": "2",
+    "mocha": "2",
+    "supertest": "1"
+  },
+  "homepage": "https://github.com/jinceon/alipayment-fork",
+  "keywords": [
+    "payment",
+    "alipay",
+    "alibaba",
+    "taobao"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "alipayment",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinceon/alipayment-fork.git"
+  },
+  "scripts": {
+    "test": "mocha --harmony --reporter spec",
+    "test-cov": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
+    "test-travis": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly"
+  },
+  "version": "0.1.2"
+}
