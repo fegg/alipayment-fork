@@ -18,8 +18,8 @@
   "devDependencies": {
     "istanbul": "0",
     "koa": "2",
-    "mocha": "2",
-    "supertest": "1"
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
   },
   "homepage": "https://github.com/jinceon/alipayment-fork",
   "keywords": [
