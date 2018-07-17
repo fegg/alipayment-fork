@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "alipayment",
+  "name": "alipayment-fork",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jinceon/alipayment-fork.git"
